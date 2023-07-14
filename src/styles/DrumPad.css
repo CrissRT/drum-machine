@@ -1,0 +1,20 @@
+
+#buttons{
+    width: 60%;
+    height: 100%;
+}
+
+.container{
+    top:15%;
+    width: 60%;
+    height: 70%;
+    padding: 0;
+}
+
+
+.drum-pad{
+    width: 10vw;
+    height: 15vh;
+    background-color: #e05154;
+    border-radius: 25px;
+}
