@@ -1,5 +1,56 @@
-.display{
-    background-color: white;
+#display{
     width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#volume-buttons *{
+    font-size: 10vh;
+}
+
+#volume-buttons{
+    height: 65%;
+}
+
+#volume-text{
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#volume-display{
+    width: 100%;
+    height: 45%;
+}
+
+#text-wrapper, #power-wrapper{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text{
+    height: 80%;
+    width: 50%;
+    background-color: #383838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#power{
+    width: 20%;
+    height: 40%;
+    border: #383838 0.5vw solid;
+}
+
+.power-button{
+    width: 50%;
     height: 100%;
 }
